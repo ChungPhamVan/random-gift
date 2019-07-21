@@ -1,4 +1,4 @@
-var socketIo = io("http://localhost:3000");
+var socketIo = io("https://random-gift.herokuapp.com");
 $(document).ready(function() {
     $('.submit').click(function() {
         var txtName = $('#Name').val();
